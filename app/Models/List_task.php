@@ -11,7 +11,6 @@ class List_task extends Model
     protected $primaryKey='id';
     protected $table='task_lists';
     protected $fillable=['name','date_dead','status'];
-    /*protected $rules=['name'=>['required','min:3','max:100','unique']];*/
 
     public function mark()
     {
